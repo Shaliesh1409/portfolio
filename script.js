@@ -1,5 +1,5 @@
 console.log("script running");
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
   console.log("script running");
 
   var crossElement = document.querySelector(".cross");
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".ham").style.display = "none";
       setTimeout(() => {
         document.querySelector(".cross").style.display = "inline";
-      }, 300);
+      }, 200);
     }
   });
 });
